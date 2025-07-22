@@ -5,7 +5,13 @@ import Header from '@/components/Header.vue';
 
 <template>
   <Header />
-  <main class="container">
+  <main>
     <RouterView />
   </main>
 </template>
+
+<style lang="css" global>
+body {
+  background-color: var(--color-background);
+}
+</style>

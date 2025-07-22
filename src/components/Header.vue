@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import Container from './Container.vue';
 import HeaderLink from './HeaderLink.vue';
-
 </script>
 
 <template>
-  <header class="shadow-2xl">
+  <header>
     <Container class="py-4 flex items-center justify-between">
       <img class="max-w-35" src="../assets/images/nwx_logo_blue.png" alt="NWW GROUP LOGO">
       <nav>

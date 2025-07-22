@@ -6,4 +6,5 @@
 
 @theme {
   --color-primary: var(--color-blue-800);
+  --color-background: var(--color-white);
 }
