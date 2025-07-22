@@ -5,6 +5,8 @@
 }
 
 @theme {
-  --color-primary: var(--color-blue-800);
-  --color-background: var(--color-white);
+  --color-primary: var(--color-blue-600);
+  --color-background: var(--color-slate-100);
+  --color-text-primary: var(--color-slate-900);
+  --color-text-secondary: var(--color-slate-500);
 }
