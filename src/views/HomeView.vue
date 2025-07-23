@@ -8,13 +8,13 @@ import Icon from '@/components/Icon.vue';
 
 <template>
   <Hero />
-  <Container class="space-y-12">
+  <Container class="space-y-12 mb-24">
     <p class="text-xl font-semibold text-text-primary text-center">Por que escolher nossos produtos?</p>
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
       <Card>
         <template #card-icon>
-          <div class="grid place-items-center size-14 border border-slate-200 rounded-full shadow">
-            <Icon icon="couch" class="text-2xl" />
+          <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
+            <Icon icon="couch" class="text-xl" />
           </div>
         </template>
         <template #card-title>Conforto no dia a dia</template>
@@ -22,8 +22,8 @@ import Icon from '@/components/Icon.vue';
       </Card>
       <Card>
         <template #card-icon>
-          <div class="grid place-items-center size-14 border border-slate-200 rounded-full shadow">
-            <Icon icon="tools" class="text-2xl" />
+          <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
+            <Icon icon="tools" class="text-xl" />
           </div>
         </template>
         <template #card-title>Funcionalidade real</template>
@@ -31,8 +31,8 @@ import Icon from '@/components/Icon.vue';
       </Card>
       <Card>
         <template #card-icon>
-          <div class="grid place-items-center size-14 border border-slate-200 rounded-full shadow">
-            <Icon icon="sync-alt" class="text-2xl" />
+          <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
+            <Icon icon="sync-alt" class="text-xl" />
           </div>
         </template>
         <template #card-title>Simples de usar e manter</template>
@@ -40,8 +40,8 @@ import Icon from '@/components/Icon.vue';
       </Card>
       <Card>
         <template #card-icon>
-          <div class="grid place-items-center size-14 border border-slate-200 rounded-full shadow">
-            <Icon icon="check-circle" class="text-2xl" />
+          <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
+            <Icon icon="check-circle" class="text-xl" />
           </div>
         </template>
         <template #card-title>Qualidade testada</template>

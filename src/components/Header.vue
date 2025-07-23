@@ -4,7 +4,7 @@ import HeaderLink from './HeaderLink.vue';
 </script>
 
 <template>
-  <header class="bg-white">
+  <header class="bg-white sticky top-0 w-full">
     <Container class="py-4 flex items-center justify-between">
       <img class="max-w-35" src="../assets/images/nwx_logo_blue.png" alt="NWW GROUP LOGO">
       <nav>
