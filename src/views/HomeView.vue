@@ -18,7 +18,9 @@ import Icon from '@/components/Icon.vue';
           </div>
         </template>
         <template #card-title>Conforto no dia a dia</template>
-        Produtos pensados para o uso contínuo, com materiais leves e acabamento ergonômico.
+        <template #card-subtitle>
+          Produtos pensados para o uso contínuo, com materiais leves e acabamento ergonômico.
+        </template>
       </Card>
       <Card>
         <template #card-icon>
@@ -27,7 +29,9 @@ import Icon from '@/components/Icon.vue';
           </div>
         </template>
         <template #card-title>Funcionalidade real</template>
-        Cada item do nosso catálogo é criado para resolver uma necessidade real da sua rotina.
+        <template #card-subtitle>
+          Cada item do nosso catálogo é criado para resolver uma necessidade real da sua rotina.
+        </template>
       </Card>
       <Card>
         <template #card-icon>
@@ -36,7 +40,9 @@ import Icon from '@/components/Icon.vue';
           </div>
         </template>
         <template #card-title>Simples de usar e manter</template>
-        Design prático e intuitivo, com fácil higienização e uso descomplicado.
+        <template #card-subtitle>
+          Design prático e intuitivo, com fácil higienização e uso descomplicado.
+        </template>
       </Card>
       <Card>
         <template #card-icon>
@@ -45,7 +51,9 @@ import Icon from '@/components/Icon.vue';
           </div>
         </template>
         <template #card-title>Qualidade testada</template>
-        Desenvolvidos com materiais de confiança e processos que garantem durabilidade e eficiência.
+        <template #card-subtitle>
+          Desenvolvidos com materiais de confiança e processos que garantem durabilidade e eficiência.
+        </template>
       </Card>
     </div>
 

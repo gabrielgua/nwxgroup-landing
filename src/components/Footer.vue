@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import Container from './Container.vue';
-import FooterSection from './FooterSection.vue';
-
 </script>
 
 <template>
