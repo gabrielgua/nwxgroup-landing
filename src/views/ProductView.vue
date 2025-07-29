@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ButtonIcon from '@/components/ButtonIcon.vue';
 import Card from '@/components/Card.vue';
 import Container from '@/components/Container.vue';
 import Icon from '@/components/Icon.vue';
@@ -18,9 +19,7 @@ import Icon from '@/components/Icon.vue';
     <section class="grid grid-cols-[auto_1fr] gap-12">
       <section class="flex gap-3 max-h-[500px]">
         <div class="flex flex-col gap-6 items-center">
-          <button class="min-w-10 min-h-10 bg-white rounded-full shadow-lg">
-            <Icon icon="chevron-up" class="text-sm text-primary" />
-          </button>
+          <ButtonIcon variant="neutral" icon="chevron-up" />
           <div class="space-y-3 overflow-y-hidden scroll-smooth p-3 -m-3">
             <Card class="size-24 p-3! grid place-items-center outline-2 outline-primary/30">
               <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_black.jpeg" alt="">
@@ -40,9 +39,7 @@ import Icon from '@/components/Icon.vue';
             </Card>
           </div>
 
-          <button class="min-w-10 min-h-10 bg-white rounded-full shadow-lg">
-            <Icon icon="chevron-down" class="text-sm text-primary" />
-          </button>
+          <ButtonIcon icon="chevron-down" variant="neutral" />
         </div>
         <Card class="max-w-max hover:cursor-zoom-in p-12 hover:*:scale-105 *:transition-all">
           <img class="max-w-[400px] aspect-square" src="../assets/images/earplugs/nwx_black.jpeg" alt="produto">
