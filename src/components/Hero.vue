@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Button from './Button.vue';
 import Container from './Container.vue';
 import Icon from './Icon.vue';
 
@@ -12,13 +13,10 @@ import Icon from './Icon.vue';
           class="text-primary">rotina</span>.</p>
       <p class="mb-12 font-light text-slate-500">Pensados para o seu conforto, projetados para o seu bem-estar.</p>
       <RouterLink to="/products">
-        <button
-          class="bg-primary rounded-xl p-4 px-7 text-white font-semibold cursor-pointer hover:scale-105 transition-all">
-          <div class="flex items-center gap-2">
-            Conheça nosso catálogo
-            <Icon icon="arrow-right" class="text-white text-xs" />
-          </div>
-        </button>
+        <Button variant="primary" size="lg">
+          Conheça nosso catálogo
+          <Icon icon="arrow-right" class="text-white text-xs" />
+        </Button>
       </RouterLink>
     </div>
   </Container>

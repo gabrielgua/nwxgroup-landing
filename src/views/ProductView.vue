@@ -1,8 +1,23 @@
 <script setup lang="ts">
-import ButtonIcon from '@/components/ButtonIcon.vue';
+import Button from '@/components/Button.vue';
 import Card from '@/components/Card.vue';
+import Carousel from '@/components/Carousel.vue';
 import Container from '@/components/Container.vue';
 import Icon from '@/components/Icon.vue';
+
+const images = [
+  new URL('../assets/images/earplugs/nwx_black.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_white.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction_2.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction_3.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_black.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_white.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction_2.jpeg', import.meta.url).href,
+  new URL('../assets/images/earplugs/nwx_noise_reduction_3.jpeg', import.meta.url).href
+
+];
 
 </script>
 
@@ -17,35 +32,7 @@ import Icon from '@/components/Icon.vue';
       <p class="text-primary">Protetor auricular antirruído</p>
     </section>
     <section class="grid grid-cols-[auto_1fr] gap-12">
-      <section class="flex gap-3 max-h-[500px]">
-        <div class="flex flex-col gap-6 items-center">
-          <ButtonIcon variant="neutral" icon="chevron-up" />
-          <div class="space-y-3 overflow-y-hidden scroll-smooth p-3 -m-3">
-            <Card class="size-24 p-3! grid place-items-center outline-2 outline-primary/30">
-              <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_black.jpeg" alt="">
-            </Card>
-            <Card class="size-24 p-3! grid place-items-center">
-              <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_white.jpeg" alt="">
-            </Card>
-
-            <Card class="size-24 p-3! grid place-items-center">
-              <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_noise_reduction.jpeg" alt="">
-            </Card>
-            <Card class="size-24 p-3! grid place-items-center">
-              <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_noise_reduction_2.jpeg" alt="">
-            </Card>
-            <Card class="size-24 p-3! grid place-items-center">
-              <img class="aspect-square rounded-xl" src="../assets/images/earplugs/nwx_noise_reduction_3.jpeg" alt="">
-            </Card>
-          </div>
-
-          <ButtonIcon icon="chevron-down" variant="neutral" />
-        </div>
-        <Card class="max-w-max hover:cursor-zoom-in p-12 hover:*:scale-105 *:transition-all">
-          <img class="max-w-[400px] aspect-square" src="../assets/images/earplugs/nwx_black.jpeg" alt="produto">
-        </Card>
-      </section>
-
+      <Carousel :images="images" />
       <div class="flex flex-col grow gap-12">
         <div>
           <h5 class="text-text-secondary/50 text-sm">SKU.: CPA_0018945</h5>
@@ -67,24 +54,19 @@ import Icon from '@/components/Icon.vue';
                 Branco
               </p>
             </Card>
-            <Card class="space-y-3! p-4! border grid place-items-center w-20 outline-2 outline-primary/30">
+            <Card class="space-y-3! p-4! border grid place-items-center w-20">
               <div class="size-10 rounded-full bg-black outline-2 outline-white"></div>
               <p class="text-text-secondary font-light text-sm">
                 Preto
               </p>
             </Card>
-            <Card class="space-y-3! p-4! border grid place-items-center w-20">
-              <div class="size-10 rounded-full bg-teal-500 outline-2 outline-white"></div>
-              <p class="text-text-secondary font-light text-sm">
-                Verde
-              </p>
-            </Card>
+
           </div>
         </div>
-        <button class="bg-primary text-white p-6 rounded-2xl font-semibold">
+        <Button size="lg" class="justify-center font-semibold">
           Ir à loja
-          <Icon icon="arrow-up-right-from-square" class="text-white" />
-        </button>
+          <Icon icon="arrow-up-right-from-square" />
+        </Button>
 
       </div>
     </section>

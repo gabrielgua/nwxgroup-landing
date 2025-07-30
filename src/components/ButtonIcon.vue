@@ -19,7 +19,7 @@ const buttonSizes = new Map<ButtonSize, string>([
 </script>
 
 <template>
-  <Button :variant="variant" class="grid place-items-center rounded-full!" :class="buttonSizes.get(size)">
+  <Button :variant="variant" class="grid place-items-center rounded-full! p-0!" :class="buttonSizes.get(size)">
     <Icon :icon="icon" class="text-inherit" />
   </Button>
 </template>

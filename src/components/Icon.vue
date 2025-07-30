@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-const props = defineProps<{ icon: string, class?: string }>();
+defineProps<{ icon: string }>();
 </script>
 
 <template>
-  <faicon :icon="icon" :class="props.class ? props.class : 'text-primary'" />
+  <faicon :icon="icon" class="text-inherit" />
 </template>

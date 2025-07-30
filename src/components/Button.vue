@@ -19,8 +19,8 @@ const buttonStyles = new Map<ButtonVariant, string>([
 ])
 
 const buttonSizes = new Map<ButtonSize, string>([
-  ['base', 'p-3 text-sm rounded-xl'],
-  ['lg', 'p-4 text-base rounded-2xl '],
+  ['base', 'p-3 px-4 text-sm rounded-xl'],
+  ['lg', 'p-4 px-5 text-base rounded-2xl '],
   ['sm', 'p-2 px-3 text-sm rounded-xl'],
   ['xs', 'p-2 px-3 text-xs rounded-xl']
 ])

@@ -14,7 +14,7 @@ import Icon from '@/components/Icon.vue';
       <Card>
         <template #card-icon>
           <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
-            <Icon icon="couch" class="text-xl" />
+            <Icon icon="couch" class="text-xl text-primary" />
           </div>
         </template>
         <template #card-title>Conforto no dia a dia</template>
@@ -25,7 +25,7 @@ import Icon from '@/components/Icon.vue';
       <Card>
         <template #card-icon>
           <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
-            <Icon icon="tools" class="text-xl" />
+            <Icon icon="tools" class="text-xl text-primary" />
           </div>
         </template>
         <template #card-title>Funcionalidade real</template>
@@ -36,7 +36,7 @@ import Icon from '@/components/Icon.vue';
       <Card>
         <template #card-icon>
           <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
-            <Icon icon="sync-alt" class="text-xl" />
+            <Icon icon="sync-alt" class="text-xl text-primary" />
           </div>
         </template>
         <template #card-title>Simples de usar e manter</template>
@@ -47,7 +47,7 @@ import Icon from '@/components/Icon.vue';
       <Card>
         <template #card-icon>
           <div class="grid place-items-center size-12 border border-slate-200 rounded-full shadow">
-            <Icon icon="check-circle" class="text-xl" />
+            <Icon icon="check-circle" class="text-xl text-primary" />
           </div>
         </template>
         <template #card-title>Qualidade testada</template>
