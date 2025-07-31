@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "code": "SKU.: PCN002938",
+    "name": "Protetor auricular antirruído",
+    "slug": "noise-cancelling-earplugs",
+    "link": "http://amazon.com.br",
+    "description": "O Protetor Auricular Antirruído foi desenvolvido para oferecer conforto e segurança em ambientes com altos níveis de ruído. Ideal para uso industrial, construção civil, ambientes fabris ou até mesmo para atividades domésticas que envolvem barulho intenso, ele protege eficazmente a audição, reduzindo a exposição a sons nocivos.",
+    "colors": [
+      {
+        "label": "Branco",
+        "color": "bg-slate-200"
+      },
+      {
+        "label": "Preto",
+        "color": "bg-black"
+      }
+    ],
+    "images": [
+      "../assets/images/earplugs/nwx_black.jpeg",
+      "../assets/images/earplugs/nwx_white.jpeg",
+      "../assets/images/earplugs/nwx_noise_reduction.jpeg",
+      "../assets/images/earplugs/nwx_noise_reduction_2.jpeg",
+      "../assets/images/earplugs/nwx_noise_reduction_3.jpeg"
+    ]
+  }
+]

@@ -34,6 +34,10 @@ const scrollToSelected = () => {
   });
 };
 
+const getImageURL = (url: string) => {
+  return new URL(url, import.meta.url).href
+}
+
 watch(selected, scrollToSelected);
 
 </script>
@@ -46,8 +50,8 @@ watch(selected, scrollToSelected);
       <div ref="thumbnailContainer" class="no-scrollbar space-y-3 overflow-y-auto scroll-smooth p-3 -m-3">
         <Card v-for="(img, index) in images" :key="index" variant="neutral" @click="selected = index"
           class="size-22 p-3! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
-          :class="{ 'outline-primary! outline-offset-2 hover:*:scale-100! cursor-default! scale-105!': index === selected }">
-          <img class="aspect-square rounded-xl object-cover" :src="img" />
+          :class="{ 'outline-primary! hover:*:scale-100! cursor-default! scale-105!': index === selected }">
+          <img class="aspect-square rounded-xl object-cover" :src="getImageURL(img)" />
         </Card>
       </div>
 
@@ -55,7 +59,7 @@ watch(selected, scrollToSelected);
     </div>
 
     <Card class="hover:cursor-zoom-in p-12 hover:*:scale-105 *:transition-all size-full">
-      <img class="max-w-[400px] aspect-square" :src="images[selected]" alt="produto" />
+      <img class="max-w-[400px] aspect-square" :src="getImageURL(images[selected])" alt="produto" />
     </Card>
   </section>
 </template>
