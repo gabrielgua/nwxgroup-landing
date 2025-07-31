@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Breadcrumbs from '@/components/Breadcrumbs.vue';
 import Card from '@/components/Card.vue';
 import Section from '@/components/Section.vue';
 

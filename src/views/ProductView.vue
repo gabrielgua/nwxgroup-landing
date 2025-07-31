@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Breadcrumbs from '@/components/Breadcrumbs.vue';
 import Button from '@/components/Button.vue';
 import Card from '@/components/Card.vue';
 import Carousel from '@/components/Carousel.vue';
@@ -14,7 +15,7 @@ const productStore = useProductStore();
 const route = useRoute();
 const router = useRouter();
 
-watch(() => route.params.id, slug => {
+watch(() => route.params.slug, slug => {
   if (typeof slug === 'string') {
     const found = productStore.findProductBySlug(slug);
     if (!found) {
@@ -32,13 +33,7 @@ watch(() => route.params.id, slug => {
   <Container class="py-12 space-y-12">
 
     <!-- breadcrumbs -->
-    <section class="flex items-center gap-3 text-text-secondary text-sm">
-      <p>Home</p>
-      <Icon icon="chevron-right" class="text-xs" />
-      <p>Produtos</p>
-      <Icon icon="chevron-right" class="text-xs" />
-      <p class="text-primary">Protetor auricular antirruído</p>
-    </section>
+    <Breadcrumbs />
 
     <!-- product -->
     <section v-if="product" class="grid grid-cols-[auto_1fr] gap-12">

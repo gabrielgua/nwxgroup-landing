@@ -5,16 +5,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: () => import('../views/HomeView.vue'),
     },
     {
       path: '/products',
-      name: 'products',
+      name: 'Produtos',
       component: () => import('../views/ProductListingView.vue'),
     },
     {
-      path: '/products/:id',
+      path: '/products/:slug',
+      name: 'Detalhes do produto',
       component: () => import('../views/ProductView.vue'),
     },
     { path: '/:pathMatch(.*)*', redirect: '/' },
