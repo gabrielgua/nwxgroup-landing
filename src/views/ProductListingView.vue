@@ -1,30 +1,43 @@
 <script setup lang="ts">
 import Breadcrumbs from '@/components/Breadcrumbs.vue';
 import Card from '@/components/Card.vue';
+import Container from '@/components/Container.vue';
+import ProductCard from '@/components/ProductCard.vue';
 import Section from '@/components/Section.vue';
+import { useProductStore } from '@/stores/product.store';
+import { onMounted } from 'vue';
+
+const productStore = useProductStore();
+
+onMounted(() => {
+  productStore.loadProducts();
+})
 
 </script>
 
 <template>
-  <Section>
-    <template #section-title>Produtos</template>
-    <template #section-subtitle>Conheça nosso catálogo de protudos por aqui.</template>
+  <Container class="space-y-8 my-12">
+    <Breadcrumbs />
 
-    <section class="grid grid-cols-[auto_1fr] gap-12">
-      <div name="filters" class="">
-        <Card>
-          <template #card-title>Filtrar</template>
-          <ul class="text-sm space-y-1">
-            <li>Lançamentos</li>
-            <li>Disponíveis</li>
-            <li>Protetores</li>
-          </ul>
-        </Card>
-      </div>
-      <div name="listing">
-        <Card>Produto</Card>
-      </div>
-    </section>
-  </Section>
+    <div class="">
+      <p class="text-3xl font-semibold text-text-primary">Produtos</p>
+      <p class="font-light text-text-secondary">Conheça nosso catálogo de protudos por aqui.</p>
+    </div>
+
+    <hr class="border-slate-200">
+
+
+    <div class="grid gap-8 product-listing-grid">
+      <ProductCard v-for="product in productStore.products" :key="product.id" :code="product.code" :name="product.name"
+        :description="product.description" :slug="product.slug" :image="product.images[0]" :colors="product.colors" />
+    </div>
+  </Container>
+
 
 </template>
+
+<style lang="css" scoped>
+.product-listing-grid {
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+</style>
