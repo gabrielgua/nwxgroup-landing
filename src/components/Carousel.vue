@@ -66,11 +66,17 @@ watch(selected, scrollToSelected);
             :class="{ 'outline-primary! ': index === selected }" :src="getImageURL(img)" />
         </Card>
       </div>
-      <div class="flex gap-2 self-center">
-        <div v-for="(_, index) in images" :key="index"
-          class="size-3 outline-white transition-all bg-white shadow rounded-full"
-          :class="{ 'bg-primary!': index === selected }">
+      <div class="flex items-center justify-between w-full gap-2 self-center">
+        <ButtonIcon @click="previous" variant="neutral" size="sm" icon="chevron-left" />
+
+        <div class="flex items-center gap-3">
+          <div v-for="(_, index) in images" :key="index"
+            class="w-3 h-1 outline-white transition-all bg-white shadow rounded-full"
+            :class="{ 'bg-primary! size-3!': index === selected }">
+          </div>
         </div>
+        <ButtonIcon @click="next" variant="neutral" size="sm" icon="chevron-right" />
+
       </div>
     </div>
     <div class="hidden md:flex flex-col gap-6 items-center">
@@ -78,7 +84,7 @@ watch(selected, scrollToSelected);
 
       <div ref="verticalContainer" class="no-scrollbar space-y-3 overflow-y-auto scroll-smooth p-3 -m-3">
         <Card v-for="(img, index) in images" :key="index" @click="selected = index"
-          class="size-22 p-3! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
+          class="size-22 p-2! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
           :class="{ 'outline-primary! hover:*:scale-100! cursor-default! scale-105!': index === selected }">
           <img class="aspect-square rounded-xl object-cover" :src="getImageURL(img)" />
         </Card>
@@ -89,8 +95,8 @@ watch(selected, scrollToSelected);
 
     <!-- Main Image -->
     <Card
-      class="hover:cursor-zoom-in md:p-12 hover:*:scale-105 *:transition-all max-w-[500px] max-h-[500px] self-center">
-      <img class="size-full aspect-square" :src="getImageURL(images[selected])" alt="produto" />
+      class="hover:cursor-zoom-in md:p-3 hover:*:scale-105 *:transition-all max-w-[500px] max-h-[500px] self-center">
+      <img class="size-full aspect-square rounded-xl" :src="getImageURL(images[selected])" alt="produto" />
     </Card>
   </section>
 </template>
