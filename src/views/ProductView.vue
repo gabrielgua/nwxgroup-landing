@@ -30,13 +30,11 @@ watch(() => route.params.slug, slug => {
 
 <template>
 
-  <Container class="py-12 space-y-12">
+  <Container class="py-6 space-y-6 md:py-12 md:space-y-12">
 
-    <!-- breadcrumbs -->
     <Breadcrumbs />
 
-    <!-- product -->
-    <section v-if="product" class="grid grid-cols-[auto_1fr] gap-12">
+    <section v-if="product" class="grid lg:grid-cols-[auto_1fr] gap-6 md:gap-12">
       <Carousel :images="product.images" />
       <div class="flex flex-col grow gap-12">
         <div>

@@ -6,6 +6,6 @@
 
 <style lang="css">
 .container-custom {
-  width: min(1337px, 100% - 4rem);
+  width: min(1337px, 100% - 2rem);
 }
 </style>
