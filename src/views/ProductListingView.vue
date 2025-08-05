@@ -16,10 +16,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <Container class="space-y-8 my-12">
+  <Container class="space-y-6 my-12 md:space-y-8 md:my-12">
     <Breadcrumbs />
 
-    <div class="">
+    <div>
       <p class="text-3xl font-semibold text-text-primary">Produtos</p>
       <p class="font-light text-text-secondary">Conheça nosso catálogo de protudos por aqui.</p>
     </div>
@@ -38,6 +38,14 @@ onMounted(() => {
 
 <style lang="css" scoped>
 .product-listing-grid {
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  --card-min-width: 16rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
+}
+
+
+@media (width <=768px) {
+  .product-listing-grid {
+    --card-min-width: 13rem;
+  }
 }
 </style>

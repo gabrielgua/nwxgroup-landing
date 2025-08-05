@@ -46,7 +46,7 @@ watch(() => route.params.slug, slug => {
         </div>
 
         <div v-if="product.colors" class="space-y-6 mt-auto">
-          <h4 class="text-text-primary">Cores</h4>
+          <h4 class="text-text-primary">{{ product.colors.length > 1 ? 'Cores' : 'Cor' }}</h4>
           <div class="flex items-center gap-6">
             <Card v-for="color in product.colors" :key="color.label"
               class="space-y-3! p-4! border grid place-items-center w-20">

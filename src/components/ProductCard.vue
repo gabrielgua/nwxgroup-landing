@@ -27,8 +27,8 @@ const getImageURL = (url: string) => {
         <p class="font-semibold text-primary">{{ name }}</p>
       </div>
       <div class="flex items-end justify-between">
-        <div class="space-y-2">
-          <p class="text-xs font-light text-text-secondary">Cores</p>
+        <div class="space-y-2" v-if="colors">
+          <p class="text-xs font-light text-text-secondary">{{ colors.length > 1 ? 'Cores' : 'Cor' }}</p>
           <div class="flex gap-2">
             <div v-for="color in colors" :key="color.label" :class="color.color" class="size-6 rounded-full" />
           </div>
