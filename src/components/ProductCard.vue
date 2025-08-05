@@ -12,16 +12,12 @@ defineProps<{
   colors?: ProductColor[]
 }>();
 
-const getImageURL = (url: string) => {
-  return new URL(url, import.meta.url).href
-}
-
 </script>
 
 <template>
   <RouterLink :to="`/products/${slug}`">
     <Card class="p-4! space-y-4! hover:scale-105">
-      <img :src="getImageURL(image)" :alt="name + ' image'">
+      <img :src="image" :alt="name + ' image'">
       <div>
         <p class="text-xs text-text-secondary">{{ code }}</p>
         <p class="font-semibold text-primary">{{ name }}</p>

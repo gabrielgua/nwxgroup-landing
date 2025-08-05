@@ -13,12 +13,12 @@
       }
     ],
     "images": [
-      "../assets/images/earplugs/nwx_black.jpeg",
-      "../assets/images/earplugs/nwx_decibeis.jpeg",
-      "../assets/images/earplugs/nwx_noise_reduction.jpeg",
-      "../assets/images/earplugs/nwx_noise_reduction_3.jpeg",
-      "../assets/images/earplugs/nwx_composition.jpeg",
-      "../assets/images/earplugs/nwx_use.jpeg"
+      "/images/earplugs/nwx_black.jpeg",
+      "/images/earplugs/nwx_decibeis.jpeg",
+      "/images/earplugs/nwx_noise_reduction.jpeg",
+      "/images/earplugs/nwx_noise_reduction_3.jpeg",
+      "/images/earplugs/nwx_composition.jpeg",
+      "/images/earplugs/nwx_use.jpeg"
     ]
   },
   {
@@ -35,12 +35,12 @@
       }
     ],
     "images": [
-      "../assets/images/earplugs/nwx_white.jpeg",
-      "../assets/images/earplugs/nwx_noise_reduction.jpeg",
-      "../assets/images/earplugs/nwx_decibeis.jpeg",
-      "../assets/images/earplugs/nwx_noise_reduction_3.jpeg",
-      "../assets/images/earplugs/nwx_composition.jpeg",
-      "../assets/images/earplugs/nwx_use.jpeg"
+      "/images/earplugs/nwx_white.jpeg",
+      "/images/earplugs/nwx_decibeis.jpeg",
+      "/images/earplugs/nwx_noise_reduction.jpeg",
+      "/images/earplugs/nwx_noise_reduction_3.jpeg",
+      "/images/earplugs/nwx_composition.jpeg",
+      "/images/earplugs/nwx_use.jpeg"
     ]
   }
 ]

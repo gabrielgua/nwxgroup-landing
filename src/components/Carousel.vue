@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch, type ComponentPublicInstance } from 'vue';
+import { ref, watch } from 'vue';
 import ButtonIcon from './ButtonIcon.vue';
 import Card from './Card.vue';
 
@@ -43,9 +43,6 @@ const scrollToSelected = () => {
   });
 };
 
-const getImageURL = (url: string) => {
-  return new URL(url, import.meta.url).href
-}
 
 watch(selected, scrollToSelected);
 
@@ -63,7 +60,7 @@ watch(selected, scrollToSelected);
           class="size-24 flex-shrink-0 p-2! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
           :class="{ 'hover:*:scale-100! cursor-default! ': index === selected }">
           <img class="aspect-square rounded-xl object-cover size-full outline-2 outline-transparent"
-            :class="{ 'outline-primary! ': index === selected }" :src="getImageURL(img)" />
+            :class="{ 'outline-primary! ': index === selected }" :src="img" />
         </Card>
       </div>
       <div class="flex items-center justify-between w-full gap-2 self-center">
@@ -86,7 +83,7 @@ watch(selected, scrollToSelected);
         <Card v-for="(img, index) in images" :key="index" @click="selected = index"
           class="size-22 p-2! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
           :class="{ 'outline-primary! hover:*:scale-100! cursor-default! scale-105!': index === selected }">
-          <img class="aspect-square rounded-xl object-cover" :src="getImageURL(img)" />
+          <img class="aspect-square rounded-xl object-cover" :src="img" />
         </Card>
       </div>
 
@@ -96,7 +93,7 @@ watch(selected, scrollToSelected);
     <!-- Main Image -->
     <Card
       class="hover:cursor-zoom-in md:p-3 hover:*:scale-105 *:transition-all max-w-[500px] max-h-[500px] self-center">
-      <img class="size-full aspect-square rounded-xl" :src="getImageURL(images[selected])" alt="produto" />
+      <img class="size-full aspect-square rounded-xl" :src="images[selected]" alt="produto" />
     </Card>
   </section>
 </template>
