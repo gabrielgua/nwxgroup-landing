@@ -34,7 +34,7 @@ watch(() => route.params.slug, slug => {
 
     <Breadcrumbs />
 
-    <section v-if="product" class="grid lg:grid-cols-[auto_1fr] gap-6 md:gap-12">
+    <section v-if="product" class="grid lg:grid-cols-[auto_1fr] gap-12">
       <Carousel :images="product.images" />
       <div class="flex flex-col grow gap-12">
         <div>

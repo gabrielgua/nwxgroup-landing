@@ -16,7 +16,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Container class="space-y-6 my-12 md:space-y-8 md:my-12">
+  <Container class="space-y-6 my-6 md:space-y-8 md:my-12">
     <Breadcrumbs />
 
     <div>
@@ -27,7 +27,7 @@ onMounted(() => {
     <hr class="border-slate-200">
 
 
-    <div class="grid gap-8 product-listing-grid">
+    <div class="grid gap-6 product-listing-grid">
       <ProductCard v-for="product in productStore.products" :key="product.id" :code="product.code" :name="product.name"
         :description="product.description" :slug="product.slug" :image="product.images[0]" :colors="product.colors" />
     </div>
