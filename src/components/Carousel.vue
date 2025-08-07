@@ -50,11 +50,9 @@ watch(selected, scrollToSelected);
 
 <template>
   <section
-    class="flex flex-col-reverse md:flex-row gap-3 md:h-[500px] overflow-x-auto md:overflow-visible transition-all p-3 -m-3">
-    <!-- Mobile Thumbnail Row -->
+    class="flex flex-col-reverse md:flex-row gap-3 md:gap-12 md:h-[500px] overflow-x-auto md:overflow-visible transition-all">
 
     <div class="md:hidden flex flex-col gap-3">
-
       <div ref="horizontalContainer" class="flex flex-nowrap gap-3 w-full overflow-x-auto no-scrollbar">
         <Card v-for="(img, index) in images" :key="index" @click="selected = index"
           class="size-24 flex-shrink-0 p-2! grid place-items-center outline-2 outline-transparent cursor-pointer hover:*:scale-105 *:transition-all transition-all"
@@ -91,8 +89,7 @@ watch(selected, scrollToSelected);
     </div>
 
     <!-- Main Image -->
-    <Card
-      class="hover:cursor-zoom-in md:p-3 hover:*:scale-105 *:transition-all max-w-[500px] max-h-[500px] self-center">
+    <Card class="hover:cursor-zoom-in p-3! hover:*:scale-105 *:transition-all max-w-[500px] max-h-[500px] self-center">
       <img class="size-full aspect-square rounded-xl" :src="images[selected]" alt="produto" />
     </Card>
   </section>

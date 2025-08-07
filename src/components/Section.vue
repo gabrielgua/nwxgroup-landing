@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Breadcrumbs from './Breadcrumbs.vue';
 import Container from './Container.vue';
+import Divider from './Divider.vue';
 
 </script>
 
@@ -16,7 +17,7 @@ import Container from './Container.vue';
         <slot name="subtitle">Subtitle</slot>
       </p>
     </div>
-    <hr class="border-slate-200">
+    <Divider />
 
 
     <slot />

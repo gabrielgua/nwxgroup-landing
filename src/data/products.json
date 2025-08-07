@@ -5,7 +5,7 @@
     "name": "Protetor auricular antirruído - (Preto)",
     "slug": "noise-cancelling-earplugs-black",
     "link": "https://www.amazon.com.br/dp/B0FKZJNPS1",
-    "description": "O Protetor Auricular Antirruído foi desenvolvido para oferecer conforto e segurança em ambientes com altos níveis de ruído. Ideal para uso industrial, construção civil, ambientes fabris ou até mesmo para atividades domésticas que envolvem barulho intenso, ele protege eficazmente a audição, reduzindo a exposição a sons nocivos.",
+    "description": "Conheça o NWX Protetor Auricular Multiuso Antirruído, a escolha definitiva para quem busca conforto e silêncio inteligente em qualquer situação. Este protetor auricular combina silicone de grau médico macio, design ergonômico e tecnologia acústica avançada para oferecer uma experiência incomparável — simplesmente o melhor protetor auricular na Amazon. Com o NWX Protetor Auricular Multiuso Antirruído, você dorme profundamente mesmo em ambientes barulhentos: trafego, ronco ou vizinhos não serão mais um problema. Sua redução de ruído seletiva permite que alarmes e chamadas importantes ainda sejam ouvidos, mantendo você conectado ao essencial, sem abrir mão do descanso. Você vai amar o conforto: o NWX Protetor Auricular Multiuso Antirruído se molda ao canal auditivo sem causar pressão ou incômodo, especialmente para quem dorme de lado ou usa por horas seguidas. Usuários relatam que “nem sentem que estão usando o protetor”. O encaixe seguro do NWX evita que ele escorregue durante o uso noturno — um verdadeiro alívio para quem cansou de acordar procurando o protetor que caiu. E ao contrário de modelos descartáveis e rígidos, o NWX Protetor Auricular Multiuso Antirruído é lavável, reutilizável e extremamente durável. Sua higiene é preservada com simplicidade: basta limpar com água e sabão neutro. Nosso protetor auditivo vai além de bloquear ruídos.",
     "colors": [
       {
         "label": "Preto",
@@ -19,7 +19,23 @@
       "/images/earplugs/nwx_noise_reduction_3.jpeg",
       "/images/earplugs/nwx_composition.jpeg",
       "/images/earplugs/nwx_use.jpeg"
-    ]
+    ],
+    "manufacturer": {
+      "name": "Shenzhen Link Dream Electronics Co., Ltd.",
+      "country": "China",
+      "address": "Sala 301, Edifício E, Parque Industrial Quesjam Guanghao, Comunidade Gaofeng, Dalang Jiedao, Distrito de Longhua, Shenzhen, Guangdong, 518000 - China."
+    },
+    "distributer": {
+      "name": "NWX Group",
+      "address": "Rua Marili Senhorinha da Silva, 144 - Curitiba, PR"
+    },
+    "dimentions": {
+      "width": "8 cm.",
+      "length": "5 cm.",
+      "height": "1 cm.",
+      "weight": "30 gramas."
+    },
+    "remark": "Meterial: Plástico, Silicone. Mantenha longe de crianças."
   },
   {
     "id": 2,
@@ -27,7 +43,7 @@
     "name": "Protetor auricular antirruído - (Branco)",
     "slug": "noise-cancelling-earplugs-white",
     "link": "https://www.amazon.com.br/dp/B0FKZJQ39Z",
-    "description": "O Protetor Auricular Antirruído foi desenvolvido para oferecer conforto e segurança em ambientes com altos níveis de ruído. Ideal para uso industrial, construção civil, ambientes fabris ou até mesmo para atividades domésticas que envolvem barulho intenso, ele protege eficazmente a audição, reduzindo a exposição a sons nocivos.",
+    "description": "Conheça o NWX Protetor Auricular Multiuso Antirruído, a escolha definitiva para quem busca conforto e silêncio inteligente em qualquer situação. Este protetor auricular combina silicone de grau médico macio, design ergonômico e tecnologia acústica avançada para oferecer uma experiência incomparável — simplesmente o melhor protetor auricular na Amazon. Com o NWX Protetor Auricular Multiuso Antirruído, você dorme profundamente mesmo em ambientes barulhentos: trafego, ronco ou vizinhos não serão mais um problema. Sua redução de ruído seletiva permite que alarmes e chamadas importantes ainda sejam ouvidos, mantendo você conectado ao essencial, sem abrir mão do descanso. Você vai amar o conforto: o NWX Protetor Auricular Multiuso Antirruído se molda ao canal auditivo sem causar pressão ou incômodo, especialmente para quem dorme de lado ou usa por horas seguidas. Usuários relatam que “nem sentem que estão usando o protetor”. O encaixe seguro do NWX evita que ele escorregue durante o uso noturno — um verdadeiro alívio para quem cansou de acordar procurando o protetor que caiu. E ao contrário de modelos descartáveis e rígidos, o NWX Protetor Auricular Multiuso Antirruído é lavável, reutilizável e extremamente durável. Sua higiene é preservada com simplicidade: basta limpar com água e sabão neutro. Nosso protetor auditivo vai além de bloquear ruídos.",
     "colors": [
       {
         "label": "Branco",
@@ -41,6 +57,22 @@
       "/images/earplugs/nwx_noise_reduction_3.jpeg",
       "/images/earplugs/nwx_composition.jpeg",
       "/images/earplugs/nwx_use.jpeg"
-    ]
+    ],
+    "manufacturer": {
+      "name": "Shenzhen Link Dream Electronics Co., Ltd.",
+      "country": "China",
+      "address": "Sala 301, Edifício E, Parque Industrial Quesjam Guanghao, Comunidade Gaofeng, Dalang Jiedao, Distrito de Longhua, Shenzhen, Guangdong, 518000 - China."
+    },
+    "distributer": {
+      "name": "NWX Group",
+      "address": "Rua Marili Senhorinha da Silva, 144 - Curitiba, PR"
+    },
+    "dimentions": {
+      "width": "8 cm.",
+      "length": "5 cm.",
+      "height": "1 cm.",
+      "weight": "30 gramas."
+    },
+    "remark": "Meterial: Plástico, Silicone. Mantenha longe de crianças."
   }
 ]

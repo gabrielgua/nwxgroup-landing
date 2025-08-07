@@ -3,8 +3,23 @@ export type ProductColor = {
   color: string
 }
 
-export type ProductSize = {
-  label: string
+export type ProductManufacturer = {
+  name: string
+  country: string
+  address: string
+}
+
+export type ProductDistributer = {
+  name: string
+  country: string
+  address: string
+}
+
+export type ProductDimentions = {
+  width: string
+  height: string
+  length: string
+  weight: string
 }
 
 export type Product = {
@@ -16,5 +31,8 @@ export type Product = {
   images: string[]
   description: string
   colors?: ProductColor[]
-  sizes?: ProductSize[]
+  manufacturer?: ProductManufacturer
+  distributer?: ProductDistributer
+  dimentions?: ProductDimentions
+  remark?: string
 }

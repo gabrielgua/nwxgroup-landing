@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Section>
+  <Section class="mb-34!">
     <template #title>Produtos</template>
     <template #subtitle>Conheça nosso catálogo de protudos por aqui.</template>
 

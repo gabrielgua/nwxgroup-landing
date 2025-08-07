@@ -23,7 +23,11 @@ const router = createRouter({
       name: 'Sobre nós',
       component: () => import('../views/AboutView.vue'),
     },
-
+    {
+      path: '/contact',
+      name: 'Contato',
+      component: () => import('../views/ContactView.vue'),
+    },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
   scrollBehavior() {

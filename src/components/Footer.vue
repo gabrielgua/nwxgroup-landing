@@ -4,9 +4,9 @@ import Container from './Container.vue';
 
 <template>
 
-  <footer class="bg-slate-950 text-text-primary-light p-4 text-white">
+  <footer class="bg-slate-950 text-text-primary-light py-8 p-4 text-white">
     <Container>
-      <section class="w-full text-xs flex gap-12 items-center justify-between">
+      <section class="w-full text-xs flex flex-wrap gap-12 items-center justify-between">
         <section class="flex items-center gap-4">
           <img src="../assets/images/nwx_logo_blue.png" alt="NWX LOGO" class="w-20">
           <p>&copy; 2025 NWX. Todos os direitos reservados. </p>

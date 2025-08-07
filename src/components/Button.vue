@@ -28,7 +28,7 @@ const buttonSizes = new Map<ButtonSize, string>([
 </script>
 
 <template>
-  <button class="flex items-center gap-4 active:scale-95 hover:scale-105 cursor-pointer transition-all shadow"
+  <button class="flex items-center gap-4 active:scale-[98%] cursor-pointer transition-all shadow"
     :class="[buttonStyles.get(variant), buttonSizes.get(size)]">
     <slot />
   </button>
