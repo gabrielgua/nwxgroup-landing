@@ -1,22 +1,25 @@
 <script setup lang="ts">
+import Breadcrumbs from './Breadcrumbs.vue';
 import Container from './Container.vue';
 
 </script>
 
 <template>
-  <Container class="my-12 space-y-12">
-    <div>
-      <h3 class="text-text-primary text-3xl font-semibold">
-        <slot name="section-title">Title</slot>
-      </h3>
-      <h5 class="text-text-secondary font-light">
-        <slot name="section-subtitle">Subtitle</slot>
-      </h5>
-    </div>
+  <Container class="space-y-6 my-6 md:space-y-8 md:my-12">
+    <Breadcrumbs />
 
     <div>
-      <slot>Content</slot>
+      <p class="text-3xl font-semibold text-text-primary">
+        <slot name="title">Title</slot>
+      </p>
+      <p class="font-light text-text-secondary">
+        <slot name="subtitle">Subtitle</slot>
+      </p>
     </div>
+    <hr class="border-slate-200">
+
+
+    <slot />
   </Container>
 
 </template>

@@ -18,6 +18,12 @@ const router = createRouter({
       name: 'Detalhes do produto',
       component: () => import('../views/ProductView.vue'),
     },
+    {
+      path: '/about',
+      name: 'Sobre nós',
+      component: () => import('../views/AboutView.vue'),
+    },
+
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
   scrollBehavior() {

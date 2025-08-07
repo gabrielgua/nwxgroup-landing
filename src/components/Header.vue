@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, Transition } from 'vue';
-import ButtonIcon from './ButtonIcon.vue';
 import Container from './Container.vue';
 import HeaderLink from './HeaderLink.vue';
 import Icon from './Icon.vue';
