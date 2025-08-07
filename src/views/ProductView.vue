@@ -34,7 +34,7 @@ watch(() => route.params.slug, slug => {
 
 <template>
 
-  <Container class="py-6 md:py-12 md:space-y-12 mb-12">
+  <Container class="py-6 md:py-12 space-y-6 md:space-y-12 mb-12">
 
     <Breadcrumbs />
 
@@ -71,7 +71,7 @@ watch(() => route.params.slug, slug => {
       </div>
     </section>
 
-    <div v-if="product" class="space-y-6 my-6 md:space-y-8 md:my-12">
+    <div v-if="product" class="space-y-6 md:space-y-8 my-20">
       <div>
         <p class="text-3xl font-semibold text-text-primary">Mais informações</p>
       </div>
