@@ -21,7 +21,8 @@ const router = createRouter({
     {
       path: '/about',
       name: 'Sobre nós',
-      component: () => import('../views/AboutView.vue'),
+      redirect: '/',
+      // component: () => import('../views/AboutView.vue'),
     },
     {
       path: '/contact',
