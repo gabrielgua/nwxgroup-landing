@@ -43,6 +43,10 @@ const handleSubmit = () => { }
               <p>08:00h às 18:00h</p>
             </div>
             <div class="flex flex-wrap items-center gap-2 p-4 rounded-2xl bg-slate-100 text-sm text-wrap">
+              <Icon icon="fa-brands fa-whatsapp" class="text-primary" />
+              <p class="">+55 (45) 9973-2051</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-2 p-4 rounded-2xl bg-slate-100 text-sm text-wrap">
               <Icon icon="fa-regular fa-envelope" class="text-primary" />
               <p class="">support@nwxgroup.com.br</p>
             </div>

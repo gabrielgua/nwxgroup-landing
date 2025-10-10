@@ -68,7 +68,7 @@ const resetForm = () => {
       </div>
 
       <Textarea id="message" v-model="form.message" label="Mensagem" placeholder="Escreva sua mensagem aqui" />
-      <Button type="submit" class="justify-center">Enviar mensagem</Button>
+      <Button type="submit" class="justify-center" disabled>Enviar mensagem</Button>
     </form>
 
     <Transition>
