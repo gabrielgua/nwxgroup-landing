@@ -12,6 +12,36 @@
         "color": "bg-black"
       }
     ],
+    "cards": {
+      "title": "Protetor auricular antirruído Multiuso",
+      "subtitle": "Descubra o conforto e silêncio inteligente em qualquer situação",
+      "cards": [
+        {
+          "image": "/images/earplugs/cards/nwx_card_sono_profundo.png",
+          "alt": "Sono profundo",
+          "title": "Sono profundo",
+          "description": "Bloqueia barulhos incômodos e garante noites mais tranquilas e descansadas."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_foco.png",
+          "alt": "Concentração",
+          "title": "Concentração",
+          "description": "Ajuda a manter o foco em estudos e trabalho, reduzindo distrações sonoras."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_dia_a_dia.png",
+          "alt": "Protetor auricular antirruído NWX - Preto",
+          "title": "Dia a dia",
+          "description": "Perfeito para usar em ambientes urbanos, transporte público ou em casa."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_sensibilidade.png",
+          "alt": "Sensibilidade auditiva",
+          "title": "Sensibilidade",
+          "description": "Ideal para pessoas sensíveis a ruídos, proporcionando conforto auditivo."
+        }
+      ]
+    },
     "images": [
       "/images/earplugs/nwx_black.jpeg",
       "/images/earplugs/nwx_content.png",
@@ -21,6 +51,14 @@
       "/images/earplugs/nwx_perfect_fit_pt_br.png",
       "/images/earplugs/nwx_composition_pt_br.png",
       "/images/earplugs/nwx_use.jpeg"
+    ],
+    "banners": [
+      {
+        "title": "O que você recebe?",
+        "subtitle": "O que vem na caixa do NWX Protetor Auricular Multiuso Antirruído",
+        "image": "/images/earplugs/banners/nwx_wide_3_what_you_get_pt_br.png",
+        "alt": "Protetor auricular antirruído NWX - Preto"
+      }
     ],
     "manufacturer": {
       "name": "Shenzhen Link Dream Electronics Co., Ltd.",
@@ -52,6 +90,36 @@
         "color": "bg-slate-200"
       }
     ],
+    "cards": {
+      "title": "Protetor auricular antirruído Multiuso",
+      "subtitle": "Descubra o conforto e silêncio inteligente em qualquer situação",
+      "cards": [
+        {
+          "image": "/images/earplugs/cards/nwx_card_sono_profundo.png",
+          "alt": "Sono profundo",
+          "title": "Sono profundo",
+          "description": "Bloqueia barulhos incômodos e garante noites mais tranquilas e descansadas."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_foco.png",
+          "alt": "Concentração",
+          "title": "Concentração",
+          "description": "Ajuda a manter o foco em estudos e trabalho, reduzindo distrações sonoras."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_dia_a_dia.png",
+          "alt": "Protetor auricular antirruído NWX - Preto",
+          "title": "Dia a dia",
+          "description": "Perfeito para usar em ambientes urbanos, transporte público ou em casa."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_sensibilidade.png",
+          "alt": "Sensibilidade auditiva",
+          "title": "Sensibilidade",
+          "description": "Ideal para pessoas sensíveis a ruídos, proporcionando conforto auditivo."
+        }
+      ]
+    },
     "images": [
       "/images/earplugs/nwx_white.jpeg",
       "/images/earplugs/nwx_content.png",
@@ -61,6 +129,14 @@
       "/images/earplugs/nwx_perfect_fit_pt_br.png",
       "/images/earplugs/nwx_composition_pt_br.png",
       "/images/earplugs/nwx_use.jpeg"
+    ],
+    "banners": [
+      {
+        "title": "O que você recebe?",
+        "subtitle": "O que vem na caixa do NWX Protetor Auricular Multiuso Antirruído",
+        "image": "/images/earplugs/banners/nwx_wide_3_what_you_get_pt_br.png",
+        "alt": "Protetor auricular antirruído NWX - Preto"
+      }
     ],
     "manufacturer": {
       "name": "Shenzhen Link Dream Electronics Co., Ltd.",
@@ -91,6 +167,14 @@
         "color": "bg-teal-400"
       }
     ],
+    "banners": [
+      {
+        "title": "O que você recebe?",
+        "subtitle": "O que vem na caixa do NWX Protetor Auricular Multiuso Antirruído",
+        "image": "/images/earplugs/banners/nwx_wide_3_what_you_get_pt_br.png",
+        "alt": "Protetor auricular antirruído NWX - Preto"
+      }
+    ],
     "images": [
       "/images/earplugs/nwx_green.png",
       "/images/earplugs/nwx_content.png",
@@ -101,6 +185,36 @@
       "/images/earplugs/nwx_composition_pt_br.png",
       "/images/earplugs/nwx_use.jpeg"
     ],
+    "cards": {
+      "title": "Protetor auricular antirruído Multiuso",
+      "subtitle": "Descubra o conforto e silêncio inteligente em qualquer situação",
+      "cards": [
+        {
+          "image": "/images/earplugs/cards/nwx_card_sono_profundo.png",
+          "alt": "Sono profundo",
+          "title": "Sono profundo",
+          "description": "Bloqueia barulhos incômodos e garante noites mais tranquilas e descansadas."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_foco.png",
+          "alt": "Concentração",
+          "title": "Concentração",
+          "description": "Ajuda a manter o foco em estudos e trabalho, reduzindo distrações sonoras."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_dia_a_dia.png",
+          "alt": "Protetor auricular antirruído NWX - Preto",
+          "title": "Dia a dia",
+          "description": "Perfeito para usar em ambientes urbanos, transporte público ou em casa."
+        },
+        {
+          "image": "/images/earplugs/cards/nwx_card_sensibilidade.png",
+          "alt": "Sensibilidade auditiva",
+          "title": "Sensibilidade",
+          "description": "Ideal para pessoas sensíveis a ruídos, proporcionando conforto auditivo."
+        }
+      ]
+    },
     "manufacturer": {
       "name": "Shenzhen Link Dream Electronics Co., Ltd.",
       "country": "China",
