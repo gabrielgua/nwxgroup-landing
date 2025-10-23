@@ -8,8 +8,9 @@ defineProps<{ icon?: string }>();
 
 <template>
   <Card class="space-y-4! p-4! max-h-max">
+    <slot name="header" />
     <div class="flex items-center justify-between font-semibold">
-      <slot name="title">Title</slot>
+      <slot name="title" />
       <Icon v-if="icon" :icon="icon" class="text-sm text-primary" />
     </div>
     <div class="text-sm">

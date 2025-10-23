@@ -8,7 +8,6 @@ import Divider from '@/components/Divider.vue';
 import Icon from '@/components/Icon.vue';
 import ProductInfoCard from '@/components/ProductInfoCard.vue';
 import ProductInfoCardSection from '@/components/ProductInfoCardSection.vue';
-import Section from '@/components/Section.vue';
 import { useProductStore } from '@/stores/product.store';
 import type { Product } from '@/types/Product';
 import { ref, watch } from 'vue';
@@ -71,12 +70,45 @@ watch(() => route.params.slug, slug => {
       </div>
     </section>
 
+
+
     <div v-if="product" class="space-y-6 md:space-y-8 my-20">
-      <div>
-        <p class="text-3xl font-semibold text-text-primary">Mais informações</p>
-      </div>
+      <p class="text-3xl font-semibold text-text-primary">Mais informações</p>
+
       <Divider />
 
+      <div v-if="product.cards" class="space-y-6">
+        <div class="space-y-2">
+          <h3 class="font-semibold">{{ product.cards.title }}</h3>
+          <p v-if="product.cards.subtitle" class="text-sm">{{ product.cards.subtitle }}</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 transition-all">
+          <Card v-for="card of product.cards.cards" class="p-4! space-y-4! text-sm">
+            <img class="rounded-xl" :src="card.image" :alt="card.alt">
+            <div class="space-y-1">
+              <p class="font-semibold text-base">{{ card.title }}</p>
+              <p>{{ card.description }}</p>
+            </div>
+          </Card>
+        </div>
+      </div>
+
+      <Divider />
+
+      <div v-if="product.banners" class="space-y-6">
+        <div v-for="banner of product.banners" class="space-y-6">
+          <div class="space-y-2">
+            <h3 v-if="banner.title" class="font-semibold">{{ banner.title }}</h3>
+            <p v-if="banner.title && banner.subtitle" class="text-sm">{{ banner.subtitle }}</p>
+          </div>
+          <Card class="p-4!">
+            <img class="rounded-lg" :src="banner.image" :alt="banner.alt">
+          </Card>
+        </div>
+      </div>
+
+      <Divider />
 
       <div class="space-y-2">
         <h3 class="font-semibold">
@@ -86,6 +118,7 @@ watch(() => route.params.slug, slug => {
           {{ product.description }}
         </p>
       </div>
+
       <Divider />
 
 

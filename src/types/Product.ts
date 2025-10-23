@@ -22,6 +22,26 @@ export type ProductDimentions = {
   weight: string
 }
 
+export type ProductBanner = {
+  image: string
+  alt: string
+  title?: string
+  subtitle?: string
+}
+
+export type ProductCard = {
+  image: string
+  alt: string
+  title: string
+  description: string
+}
+
+export type ProductCards = {
+  title: string
+  subtitle?: string
+  cards: ProductCard[]
+}
+
 export type Product = {
   id: number
   code: string
@@ -29,6 +49,8 @@ export type Product = {
   name: string
   link: string
   images: string[]
+  banners?: ProductBanner[]
+  cards?: ProductCards
   description: string
   colors?: ProductColor[]
   manufacturer?: ProductManufacturer
