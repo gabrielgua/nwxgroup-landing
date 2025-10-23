@@ -36,10 +36,16 @@ export type ProductCard = {
   description: string
 }
 
-export type ProductCards = {
-  title: string
+export type ProductMediaSection<T> = {
+  title?: string
   subtitle?: string
-  cards: ProductCard[]
+  content: T[]
+}
+
+export type ProductMedia = {
+  images: string[]
+  banners?: ProductMediaSection<ProductBanner>
+  cards?: ProductMediaSection<ProductCard>
 }
 
 export type Product = {
@@ -48,9 +54,7 @@ export type Product = {
   slug: string
   name: string
   link: string
-  images: string[]
-  banners?: ProductBanner[]
-  cards?: ProductCards
+  media: ProductMedia
   description: string
   colors?: ProductColor[]
   manufacturer?: ProductManufacturer

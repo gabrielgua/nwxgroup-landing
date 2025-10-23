@@ -38,7 +38,7 @@ watch(() => route.params.slug, slug => {
     <Breadcrumbs />
 
     <section v-if="product" class="grid lg:grid-cols-[auto_1fr] gap-12">
-      <Carousel :images="product.images" />
+      <Carousel :images="product.media.images" />
       <div class="flex flex-col grow gap-12">
         <div>
           <h5 class="text-text-secondary/50 text-sm">{{ product.code }}</h5>
@@ -77,14 +77,14 @@ watch(() => route.params.slug, slug => {
 
       <Divider />
 
-      <div v-if="product.cards" class="space-y-6">
+      <div v-if="product.media.cards" class="space-y-6">
         <div class="space-y-2">
-          <h3 class="font-semibold">{{ product.cards.title }}</h3>
-          <p v-if="product.cards.subtitle" class="text-sm">{{ product.cards.subtitle }}</p>
+          <h3 class="font-semibold">{{ product.media.cards.title }}</h3>
+          <p v-if="product.media.cards.subtitle" class="text-sm">{{ product.media.cards.subtitle }}</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 transition-all">
-          <Card v-for="card of product.cards.cards" class="p-4! space-y-4! text-sm">
+          <Card v-for="card of product.media.cards.content" class="p-3! md:p-4! space-y-4! text-sm">
             <img class="rounded-xl" :src="card.image" :alt="card.alt">
             <div class="space-y-1">
               <p class="font-semibold text-base">{{ card.title }}</p>
@@ -96,13 +96,13 @@ watch(() => route.params.slug, slug => {
 
       <Divider />
 
-      <div v-if="product.banners" class="space-y-6">
-        <div v-for="banner of product.banners" class="space-y-6">
+      <div v-if="product.media.banners" class="space-y-6">
+        <div v-for="banner of product.media.banners.content" class="space-y-6">
           <div class="space-y-2">
             <h3 v-if="banner.title" class="font-semibold">{{ banner.title }}</h3>
             <p v-if="banner.title && banner.subtitle" class="text-sm">{{ banner.subtitle }}</p>
           </div>
-          <Card class="p-4!">
+          <Card class="p-3! md:p-4!">
             <img class="rounded-lg" :src="banner.image" :alt="banner.alt">
           </Card>
         </div>

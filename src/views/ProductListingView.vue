@@ -19,7 +19,8 @@ onMounted(() => {
 
     <div class="grid gap-6 product-listing-grid">
       <ProductCard v-for="product in productStore.products" :key="product.id" :code="product.code" :name="product.name"
-        :description="product.description" :slug="product.slug" :image="product.images[0]" :colors="product.colors" />
+        :description="product.description" :slug="product.slug" :image="product.media.images[0]"
+        :colors="product.colors" />
     </div>
   </Section>
 
