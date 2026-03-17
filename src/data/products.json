@@ -70,7 +70,7 @@
     },
     "distributer": {
       "name": "NWX Group",
-      "address": "Rua Marili Senhorinha da Silva, 144 - Curitiba, PR"
+      "address": "Curitiba, PR"
     },
     "dimentions": {
       "width": "8 cm.",
@@ -151,7 +151,7 @@
     },
     "distributer": {
       "name": "NWX Group",
-      "address": "Rua Marili Senhorinha da Silva, 144 - Curitiba, PR"
+      "address": "Curitiba, PR"
     },
     "dimentions": {
       "width": "8 cm.",
@@ -231,13 +231,79 @@
     },
     "distributer": {
       "name": "NWX Group",
-      "address": "Rua Marili Senhorinha da Silva, 144 - Curitiba, PR"
+      "address": "Curitiba, PR"
     },
     "dimentions": {
       "width": "8 cm.",
       "length": "5 cm.",
       "height": "1 cm.",
       "weight": "30 gramas."
+    },
+    "remark": "Meterial: Plástico, Silicone. Mantenha longe de crianças."
+  },
+  {
+    "id": 4,
+    "code": "SKU.: PCN002234",
+    "name": "Protetor auricular antirruído 3 Camadas - (Preto)",
+    "slug": "three-layers-noise-cancelling-earplugs-black",
+    "link": "https://www.amazon.com.br/dp/B0GFP58H4V",
+    "description": "Este protetor auricular com ponteira tripla antirruído foi desenvolvido para oferecer máxima proteção sonora aliada a conforto superior. Diferente dos modelos tradicionais, sua ponteira possui três camadas de silicone, que criam múltiplas zonas de vedação dentro do canal auditivo, bloqueando o som de forma mais eficiente e uniforme. A tecnologia de 3 camadas antirruído permite uma redução progressiva dos sons externos, proporcionando um ambiente mais silencioso sem causar desconforto ou sensação de pressão. Isso torna o produto ideal para quem precisa de silêncio para dormir melhor, estudar com foco, viajar com tranquilidade ou trabalhar em ambientes ruidosos. Outro grande diferencial está no design ergonômico. O formato foi cuidadosamente projetado para se adaptar ao contorno natural da orelha, garantindo encaixe estável e seguro. Isso evita que o protetor se solte com facilidade e melhora a experiência de uso ao longo do dia. Fabricado em silicone macio e flexível, o protetor não machuca, não irrita a pele e pode ser utilizado por longos períodos sem causar dor. Sua textura suave proporciona conforto contínuo, mesmo quando utilizado durante o sono. Discreto, moderno e eficiente, este protetor auricular é a escolha ideal para quem busca isolamento sonoro eficaz, conforto prolongado e um design realmente funcional. ✨ Experimente agora a diferença de um protetor com ponteira tripla antirruído e encaixe ergonômico, pensado para quem valoriza silêncio e bem-estar.",
+    "colors": [
+      {
+        "label": "Preto",
+        "color": "bg-black"
+      }
+    ],
+    "media": {
+      "images": [ 
+        "/images/earplugs-3-layers/earplugs_3_layers_black.jpeg",
+        "/images/earplugs-3-layers/noise_reduction_pt_br.png",
+        "/images/earplugs-3-layers/shark_fin_design_pt_br.png",
+        "/images/earplugs-3-layers/triple_noise_reduction_pt_br.png",
+        "/images/earplugs-3-layers/topics_with_icons_pt_br.png" 
+      ]
+    },
+    "manufacturer": {
+      "name": "Shenzhen Link Dream Electronics Co., Ltd.",
+      "country": "China",
+      "address": "Sala 301, Edifício E, Parque Industrial Quesjam Guanghao, Comunidade Gaofeng, Dalang Jiedao, Distrito de Longhua, Shenzhen, Guangdong, 518000 - China."
+    },
+    "distributer": {
+      "name": "NWX Group",
+      "address": "Curitiba, PR"
+    },
+    "remark": "Meterial: Plástico, Silicone. Mantenha longe de crianças."
+  },
+  {
+    "id": 5,
+    "code": "SKU.: PCN002235",
+    "name": "Protetor auricular antirruído 3 Camadas - (Branco)",
+    "slug": "three-layers-noise-cancelling-earplugs-white",
+    "link": "https://www.amazon.com.br/dp/B0GFPMWLXC",
+    "description": "Este protetor auricular com ponteira tripla antirruído foi desenvolvido para oferecer máxima proteção sonora aliada a conforto superior. Diferente dos modelos tradicionais, sua ponteira possui três camadas de silicone, que criam múltiplas zonas de vedação dentro do canal auditivo, bloqueando o som de forma mais eficiente e uniforme. A tecnologia de 3 camadas antirruído permite uma redução progressiva dos sons externos, proporcionando um ambiente mais silencioso sem causar desconforto ou sensação de pressão. Isso torna o produto ideal para quem precisa de silêncio para dormir melhor, estudar com foco, viajar com tranquilidade ou trabalhar em ambientes ruidosos. Outro grande diferencial está no design ergonômico. O formato foi cuidadosamente projetado para se adaptar ao contorno natural da orelha, garantindo encaixe estável e seguro. Isso evita que o protetor se solte com facilidade e melhora a experiência de uso ao longo do dia. Fabricado em silicone macio e flexível, o protetor não machuca, não irrita a pele e pode ser utilizado por longos períodos sem causar dor. Sua textura suave proporciona conforto contínuo, mesmo quando utilizado durante o sono. Discreto, moderno e eficiente, este protetor auricular é a escolha ideal para quem busca isolamento sonoro eficaz, conforto prolongado e um design realmente funcional. ✨ Experimente agora a diferença de um protetor com ponteira tripla antirruído e encaixe ergonômico, pensado para quem valoriza silêncio e bem-estar.",
+    "colors": [
+      {
+        "label": "Branco",
+        "color": "bg-stone-100"
+      }
+    ],
+    "media": {
+      "images": [ 
+        "/images/earplugs-3-layers/earplugs_3_layers_white.jpeg",
+        "/images/earplugs-3-layers/noise_reduction_pt_br.png",
+        "/images/earplugs-3-layers/shark_fin_design_pt_br.png",
+        "/images/earplugs-3-layers/triple_noise_reduction_pt_br.png",
+        "/images/earplugs-3-layers/topics_with_icons_pt_br.png" 
+      ]
+    },
+    "manufacturer": {
+      "name": "Shenzhen Link Dream Electronics Co., Ltd.",
+      "country": "China",
+      "address": "Sala 301, Edifício E, Parque Industrial Quesjam Guanghao, Comunidade Gaofeng, Dalang Jiedao, Distrito de Longhua, Shenzhen, Guangdong, 518000 - China."
+    },
+    "distributer": {
+      "name": "NWX Group",
+      "address": "Curitiba, PR"
     },
     "remark": "Meterial: Plástico, Silicone. Mantenha longe de crianças."
   }
